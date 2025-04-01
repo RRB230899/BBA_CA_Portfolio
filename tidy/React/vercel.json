@@ -4,6 +4,7 @@
         "src": "tidy/React/package.json",
         "use": "@vercel/static-build"
       }
-    ]
+    ],
+    "outputDirectory": "tidy/React"
   }
   
