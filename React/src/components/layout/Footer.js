@@ -42,13 +42,13 @@ class Footer extends React.Component {
               'site-footer-inner',
               topDivider && 'has-top-divider'
             )}>
-            <div className="footer-top space-between text-xxs">
+            {/* <div className="footer-top space-between text-xxs">
               <Logo />
               <FooterSocial />
-            </div>
+            </div> */}
             <div className="footer-bottom space-between text-xxs invert-order-desktop">
-              <FooterNav />
-              <div className="footer-copyright">&copy; 2020 Tidy, all rights reserved</div>
+              {/* <FooterNav /> */}
+              <div className="footer-copyright">&copy; 2025 BBA and Associates, all rights reserved</div>
             </div>
           </div>
         </div>
