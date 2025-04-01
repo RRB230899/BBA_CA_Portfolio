@@ -3,22 +3,35 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/eslint-parser": "^7.27.0",
     "classnames": "^2.2.6",
+    "eslint": "^8.1.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.4",
     "lodash": "^4.17.15",
+    "mini-css-extract-plugin": "^2.9.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.1.1",
-    "sass": "^1.86.0"
+    "react-scripts": "^5.0.1",
+    "sass": "^1.86.0",
+    "typescript": "^5.8.2"
+  },
+  "resolutions": {
+    "webpack": "^5.0.0"
   },
   "scripts": {
     "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app"
+    ]
   },
   "browserslist": {
     "production": [
@@ -31,5 +44,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.10",
+    "@babel/plugin-syntax-flow": "7.14.5",
+    "@babel/plugin-transform-react-jsx": "7.14.9",
+    "eslint-plugin-flowtype": "8.0.3",
+    "eslint-plugin-jest": "25.7.0"
   }
 }
