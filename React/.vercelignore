@@ -1,5 +1,5 @@
 # Ignore build artifacts and large files
-React/node_modules/
+<!-- React/node_modules/ -->
 node_modules/
 /build/
 *.log
