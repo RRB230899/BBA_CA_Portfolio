@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import Logo from './partials/LogoInvert';
-import FooterNav from './partials/FooterNav';
+// import FooterNav from './partials/FooterNav';
 
 const propTypes = {
   topOuterDivider: PropTypes.bool,
