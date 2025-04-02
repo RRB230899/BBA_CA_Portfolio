@@ -1,10 +1,10 @@
 import React from 'react';
 import classNames from 'classnames';
 import { SectionSplitProps } from '../../utils/SectionProps';
-import ButtonGroup from '../elements/ButtonGroup';
-import Button from '../elements/Button';
-import Image from '../elements/Image';
-import Modal from '../elements/Modal';
+// import ButtonGroup from '../elements/ButtonGroup';
+// import Button from '../elements/Button';
+// import Image from '../elements/Image';
+// import Modal from '../elements/Modal';
 
 const propTypes = {
   ...SectionSplitProps.types

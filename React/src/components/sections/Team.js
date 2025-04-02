@@ -82,17 +82,7 @@ class Team extends React.Component {
                       B.Com, FCA
                     </div>
                     <p className="m-0 text-sm">
-                      Mr. Rohit Bajaj has been enrolled as a member of ICAI
-                      in the year 2015 with Membership No. 168078. He has
-                      done his graduation from Nagpur University.
-                      He has been involved in the audit of major corporate and
-                      non-corporate clients. He is an expert in Income Tax
-                      matters having rich experience in the field. He also
-                      handles Income Tax related cases.
-                      He is majorly concerned with maintaining public
-                      relations and ensuring profile growth of the firm.
-                      Additionally, he also holds experience as a financial
-                      advisor/consultant of our clients.
+                    Mr. Rohit Bajaj, a member of ICAI since 2015 (Membership No. 168078), is a seasoned expert in Income Tax with extensive experience in audits for both corporate and non-corporate clients. A graduate of Nagpur University, he not only handles complex tax cases but also serves as a trusted financial advisor, guiding clients through critical financial decisions. Beyond his technical expertise, he plays a key role in strengthening client relationships and driving the firm’s growth, making him an invaluable asset to both the firm and its clients.
                     </p>
                   </div>
                 </div>
@@ -117,15 +107,7 @@ class Team extends React.Component {
                       B.Com, FCA
                     </div>
                     <p className="m-0 text-sm">
-                      Mr. Shanu Bose has been enrolled as a member of ICAI
-                      in the year 2015 with Membership No. 169835. He has
-                      done his graduation from Nagpur University.
-                      He has rich experience in various types of audit which
-                      includes Statutory Audit, Concurrent Audit, Tax Audit,
-                      Internal Audit, Co-operative Society Audit, Bank Audits
-                      etc.
-                      He also has expert knowledge about the newly
-                      introduced Goods & Services Tax (GST).
+                    Mr. Shanu Bose, an ICAI member since 2015 (Membership No. 169835), is a seasoned expert in audits, including Statutory, Tax, Internal, and Bank Audits. A graduate of Nagpur University, he also specializes in GST compliance, helping businesses navigate complex regulations effortlessly. His sharp analytical skills and deep industry knowledge make him a trusted advisor in financial audits and taxation.
                     </p>
                   </div>
                 </div>
@@ -150,14 +132,7 @@ class Team extends React.Component {
                       B.Com, FCA, D.I.S.A., F.A.T.A.
                     </div>
                     <p className="m-0 text-sm">
-                      Mr. Rakesh Agrawal has been enrolled as a member of
-                      ICAI in the year 2019 with Membership No. 188459. He
-                      has done his graduation from Nagpur University.
-                      He has been handling the day-to-day working of the firm
-                      efficiently and ensuring timely delivery of quality service
-                      to our clients.
-                      He has completed Certificate Course on Concurrent
-                      Audit of Banks conducted by ICAI.
+                    Mr. Rakesh Agrawal, a member of ICAI since 2019 (Membership No. 188459), efficiently manages the day-to-day operations of the firm, ensuring timely and high-quality service delivery to clients. A graduate of Nagpur University, he has also completed the Certificate Course on Concurrent Audit of Banks by ICAI, further strengthening his expertise in audit and financial operations. His dedication and organizational skills make him a key contributor to the firm’s success.
                     </p>
                   </div>
                 </div>
@@ -182,20 +157,7 @@ class Team extends React.Component {
                       B.Com, FCA
                     </div>
                     <p className="m-0 text-sm">
-                      Mr. Sachin Belorkar, an esteemed Associate with our firm, whose expertise in Labour Law
-                      serves as a cornerstone in ensuring meticulous compliance with various statutory regulations.
-                      With a rich experience spanning over 11 years, Mr. Singh is a seasoned expert in navigating the
-                      intricacies of labor laws, including Establishment Compliance, Factory Act, BOCW Act, EPF Act,
-                      ESIC Act, Contract Labour Act, Gratuity Act, and Bonus Act.
-                      Having successfully managed and resolved over 200 cases of Government audits and
-                      inspections, Mr. Singh brings a wealth of practical knowledge and strategic insight to our team.
-                      His adept handling of complex compliance matters reflects his commitment to upholding the
-                      highest standards of legal adherence and ethical practice.
-                      In his role as an Associate, Mr. Singh oversees the labor law compliance operations of our firm,
-                      ensuring seamless adherence to regulatory frameworks and safeguarding the interests of our
-                      clients. With his dedication to excellence and unwavering focus on compliance, Mr. Akshaibar
-                      Singh plays a pivotal role in fortifying our firm's reputation as a trusted advisor in the realm of
-                      labor law.
+                    Mr. Sachin Belorkar, an esteemed Associate with over 11 years of experience, is a seasoned expert in Labour Law, specializing in compliance with the Establishment Compliance, Factory Act, BOCW Act, EPF Act, ESIC Act, Contract Labour Act, Gratuity Act, and Bonus Act. He has successfully managed over 200 government audits and inspections, bringing practical knowledge and strategic insight to our team. Mr. Belorkar oversees our firm’s labour law compliance operations, ensuring seamless regulatory adherence and safeguarding client interests. His dedication to excellence makes him a pivotal part of our firm's trusted reputation in labour law.
                     </p>
                   </div>
                 </div>
@@ -219,21 +181,7 @@ class Team extends React.Component {
                       CS
                     </div>
                     <p className="m-0 text-sm">
-                      Tejram P., an esteemed Associate with our firm, and a distinguished Associate Member of the
-                      Institute of Company Secretaries of India (ICSI). With a solid foundation in commerce, holding a
-                      B.Com degree from Kerala University, Mr. Pranesh brings forth a wealth of expertise in
-                      Company Law, SEBI Regulations, and the LLP Act.
-                      Mr. Pranesh has established himself as a trusted authority in the field of corporate governance
-                      and compliance. His meticulous approach to navigating complex regulatory frameworks has
-                      earned him recognition as a leading practitioner in Trivandrum, India.
-                      With specialized skills in Secretarial Audit, Mr. Pranesh ensures that businesses adhere to
-                      stringent corporate governance standards, safeguarding their legal and ethical integrity.
-                      Additionally, his adeptness in providing investment opportunities in equities underscores his
-                      holistic approach to client service, offering strategic insights beyond regulatory compliance.
-                      Since joining the Institute of Company Secretaries of India in March 2020, Mr. Pranesh has
-                      demonstrated a steadfast commitment to excellence, reflected in his membership. His
-                      dedication to professional development and his unwavering focus on client success make him
-                      a valuable asset to our firm and a trusted advisor to our esteemed clientele.
+                    Mr. Pranesh P., an esteemed Associate and an Associate Member of ICSI, holds a B.Com from Kerala University and specializes in Company Law, SEBI Regulations, and the LLP Act. With expertise in Secretarial Audit, he ensures businesses adhere to corporate governance standards. Known for his meticulous approach to regulatory compliance, Mr. Pranesh also provides strategic investment insights in equities. Since joining ICSI in March 2020, his dedication to excellence and client success has made him a trusted advisor and valuable asset to our firm.
                     </p>
                   </div>
                 </div>

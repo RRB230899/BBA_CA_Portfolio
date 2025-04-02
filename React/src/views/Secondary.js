@@ -1,21 +1,21 @@
 import React from 'react';
 // import section header
-import SectionHeader from '../components/sections/partials/SectionHeader';
+// import SectionHeader from '../components/sections/partials/SectionHeader';
 // import sections
 import Testimonial from '../components/sections/Testimonial';
 import Clients from '../components/sections/Clients';
 import Team from '../components/sections/Team';
 import FeaturesSplit from '../components/sections/FeaturesSplit';
-import GenericSection from '../components/sections/GenericSection';
+// import GenericSection from '../components/sections/GenericSection';
 import Cta from '../components/sections/Cta';
 // import some required elements
-import Image from '../components/elements/Image';
-import Input from '../components/elements/Input';
-import ButtonGroup from '../components/elements/ButtonGroup';
-import Button from '../components/elements/Button';
-import Modal from '../components/elements/Modal';
-import Accordion from '../components/elements/Accordion';
-import AccordionItem from '../components/elements/AccordionItem';
+// import Image from '../components/elements/Image';
+// import Input from '../components/elements/Input';
+// import ButtonGroup from '../components/elements/ButtonGroup';
+// import Button from '../components/elements/Button';
+// import Modal from '../components/elements/Modal';
+// import Accordion from '../components/elements/Accordion';
+// import AccordionItem from '../components/elements/AccordionItem';
 
 class Secondary extends React.Component {
 
@@ -58,7 +58,7 @@ class Secondary extends React.Component {
         <Clients topDivider bottomDivider />
         <FeaturesSplit invertMobile imageFill topDivider />
 
-        <GenericSection topDivider>
+        {/* <GenericSection topDivider>
           <div className="container-xs">
             <h2 className="mt-0">Lorem ipsum is placeholder text commonly used in the graphic.</h2>
             <p>
@@ -89,7 +89,7 @@ class Secondary extends React.Component {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
             </p>
           </div>
-        </GenericSection>   
+        </GenericSection>    */}
 
         {/* <GenericSection topDivider>
           <div className="container-xs">
