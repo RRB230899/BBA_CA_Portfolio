@@ -62,7 +62,7 @@ class FeaturesTabs extends React.Component {
                 <Tab tabId="tab-a">
                   <div className="features-tabs-tab-image mb-12">
                     <Image
-                      src={require('./../../assets/images/features-tabs-icon-01.svg')}
+                      src={require('./../../assets/images/features-tabs-icon-01.svg').default}
                       alt="Tab icon 01"
                       width={56}
                       height={56} />
@@ -74,7 +74,7 @@ class FeaturesTabs extends React.Component {
                 <Tab tabId="tab-b">
                   <div className="features-tabs-tab-image mb-12">
                     <Image
-                      src={require('./../../assets/images/features-tabs-icon-02.svg')}
+                      src={require('./../../assets/images/features-tabs-icon-02.svg').default}
                       alt="Tab icon 02"
                       width={56}
                       height={56} />
@@ -86,7 +86,7 @@ class FeaturesTabs extends React.Component {
                 <Tab tabId="tab-c">
                   <div className="features-tabs-tab-image mb-12">
                     <Image
-                      src={require('./../../assets/images/features-tabs-icon-03.svg')}
+                      src={require('./../../assets/images/features-tabs-icon-03.svg').default}
                       alt="Tab icon 03"
                       width={56}
                       height={56} />
@@ -98,7 +98,7 @@ class FeaturesTabs extends React.Component {
                 <Tab tabId="tab-d">
                   <div className="features-tabs-tab-image mb-12">
                     <Image
-                      src={require('./../../assets/images/features-tabs-icon-04.svg')}
+                      src={require('./../../assets/images/features-tabs-icon-04.svg').default}
                       alt="Tab icon 04"
                       width={56}
                       height={56} />
