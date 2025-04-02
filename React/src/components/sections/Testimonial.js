@@ -66,26 +66,22 @@ class Testimonial extends React.Component {
               <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap">
                 <div className="tiles-item-inner has-shadow">
                   <div className="testimonial-item-header mb-16">
-                    <div className="testimonial-item-image">
+                    {/* <div className="testimonial-item-image">
                       <Image
                         src={require('./../../assets/images/testimonial-image-01.jpg')}
                         alt="Testimonial 01"
                         width={48}
                         height={48} />
-                    </div>
+                    </div> */}
                   </div>
                   <div className="testimonial-item-content">
                     <p className="text-sm mb-0">
-                      — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat culpa qui officia deserunt mollit anim id est laborum.
+                    "Expanding to India brought unexpected challenges, especially with regulatory requirements. BBA and Associates quickly identified a workaround for an environmental clearance, securing it in just a week. They also helped us access tax incentives, cutting our setup costs by 12%. Thanks to their expertise and proactive support, our operations in India are running smoothly. BBA and Associates were an invaluable partner in our expansion."
                     </p>
                   </div>
                   <div className="testimonial-item-footer text-xs fw-500 mt-32 mb-0 has-top-divider">
-                    <span className="testimonial-item-name">
-                      Kendra Kinson
-                    </span>
-                    <span className="text-color-low"> / </span>
                     <span className="testimonial-item-link fw-600">
-                      <a href="#0">AppName</a>
+                    — Lighting & Energy Conservation Australia Pty Ltd
                     </span>
                   </div>
                 </div>
@@ -104,16 +100,12 @@ class Testimonial extends React.Component {
                   </div>
                   <div className="testimonial-item-content">
                     <p className="text-sm mb-0">
-                      — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat culpa qui officia deserunt mollit anim id est laborum.
+                      "Setting up our subsidiary in India seemed daunting, but BBA and Associates handled everything seamlessly. From company registration to regulatory compliance, they navigated every challenge with precision. They expedited key approvals, ensured tax compliance, and streamlined legal formalities, saving us both time and costs. With their support, our India operations are fully functional without hassle. BBA and Associates are truly the go-to partners for international businesses."
                     </p>
                   </div>
                   <div className="testimonial-item-footer text-xs fw-500 mt-32 mb-0 has-top-divider">
-                    <span className="testimonial-item-name">
-                      Emilia Jovic
-                    </span>
-                    <span className="text-color-low"> / </span>
                     <span className="testimonial-item-link fw-600">
-                      <a href="#0">AppName</a>
+                      — NX Gen Inventors LLP (Australia Subsidiary)
                     </span>
                   </div>
                 </div>
@@ -132,16 +124,12 @@ class Testimonial extends React.Component {
                   </div>
                   <div className="testimonial-item-content">
                     <p className="text-sm mb-0">
-                      — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat culpa qui officia deserunt mollit anim id est laborum.
+                      "Managing finances efficiently was crucial for our growth, and BBA and Associates provided expert guidance. They optimized our financial structure, secured cost-effective funding options, and ensured compliance with all regulations. Their strategic advice helped improve cash flow and reduce financial risks. We now operate with greater financial stability and confidence. BBA and Associates are invaluable partners in financial consultancy."
                     </p>
                   </div>
                   <div className="testimonial-item-footer text-xs fw-500 mt-32 mb-0 has-top-divider">
-                    <span className="testimonial-item-name">
-                      Mark Walker
-                    </span>
-                    <span className="text-color-low"> / </span>
                     <span className="testimonial-item-link fw-600">
-                      <a href="#0">AppName</a>
+                    — Ashirwad Industries Pvt. Ltd. (Nagpur)
                     </span>
                   </div>
                 </div>

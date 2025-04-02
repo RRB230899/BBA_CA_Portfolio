@@ -53,8 +53,8 @@ class Secondary extends React.Component {
 
     return (
       <React.Fragment>
-        <Team />
         <Testimonial className="has-bg-color-cut illustration-section-02" />
+        <Team />
         <Clients topDivider bottomDivider />
         <FeaturesSplit invertMobile imageFill topDivider />
 

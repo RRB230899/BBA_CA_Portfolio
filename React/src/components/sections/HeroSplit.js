@@ -94,7 +94,7 @@ class HeroSplit extends React.Component {
                     </Button>                    
                   </ButtonGroup> */}
                 </div>
-                <div className="hero-figure split-item-image split-item-image-fill illustration-element-01 reveal-from-bottom">
+                {/* <div className="hero-figure split-item-image split-item-image-fill illustration-element-01 reveal-from-bottom">
                   <a
                     data-video="https://player.vimeo.com/video/174002812"
                     href="#0"
@@ -109,11 +109,11 @@ class HeroSplit extends React.Component {
                   </a>
                 </div>
                 <Modal
-                  id="video-modal"
-                  show={this.state.videoModalActive}
+                  id="video-modal" */}
+                  {/* show={this.state.videoModalActive}
                   handleClose={this.closeVideoModal}
                   video="https://player.vimeo.com/video/174002812"
-                  videoTag="iframe" />
+                  videoTag="iframe" /> */}
               </div>
             </div>
           </div>
