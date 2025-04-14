@@ -46,7 +46,7 @@ class FeaturesTabs extends React.Component {
 
     const sectionHeader = {
       title: 'Built exclusively for you',
-      paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+      paragraph: "It's a one stop destination. You name it, we've got it. From Financial Audits, Risk Assessments, and Performance Reporting, to Compliance, planning, and global tax solutions, Digital transformation, business process optimization, and technology strategy, Mergers, acquisitions, and risk management consulting, ESG strategy, sustainable finance, and climate impact solutions."
     };
 
     return (
@@ -68,7 +68,7 @@ class FeaturesTabs extends React.Component {
                       height={56} />
                   </div>
                   <div className="text-color-high fw-600 text-sm">
-                    Internal Feedback
+                    Assurance Services
                   </div>
                 </Tab>
                 <Tab tabId="tab-b">
@@ -80,7 +80,7 @@ class FeaturesTabs extends React.Component {
                       height={56} />
                   </div>
                   <div className="text-color-high fw-600 text-sm">
-                    Internal Feedback
+                    Tax Advisory
                   </div>                  
                 </Tab>
                 <Tab tabId="tab-c">
@@ -92,7 +92,7 @@ class FeaturesTabs extends React.Component {
                       height={56} />
                   </div>
                   <div className="text-color-high fw-600 text-sm">
-                    Internal Feedback
+                    Consultancy
                   </div>                  
                 </Tab>
                 <Tab tabId="tab-d">
@@ -104,9 +104,21 @@ class FeaturesTabs extends React.Component {
                       height={56} />
                   </div>
                   <div className="text-color-high fw-600 text-sm">
-                    Internal Feedback
+                    Advisory Services
                   </div>
-                </Tab>                
+                </Tab> 
+                <Tab tabId="tab-d">
+                  <div className="features-tabs-tab-image mb-12">
+                    <Image
+                      src={require('./../../assets/images/features-tabs-icon-04.svg').default}
+                      alt="Tab icon 04"
+                      width={56}
+                      height={56} />
+                  </div>
+                  <div className="text-color-high fw-600 text-sm">
+                    Sustainability Advisory
+                  </div>
+                </Tab>               
               </TabList>
               <TabPanel id="tab-a">
                 <Image
