@@ -107,11 +107,11 @@ class FeaturesTabs extends React.Component {
                     Advisory Services
                   </div>
                 </Tab> 
-                <Tab tabId="tab-d">
+                <Tab tabId="tab-e">
                   <div className="features-tabs-tab-image mb-12">
                     <Image
                       src={require('./../../assets/images/features-tabs-icon-04.svg').default}
-                      alt="Tab icon 04"
+                      alt="Tab icon 05"
                       width={56}
                       height={56} />
                   </div>
@@ -121,12 +121,12 @@ class FeaturesTabs extends React.Component {
                 </Tab>               
               </TabList>
               <TabPanel id="tab-a">
-                <Image
+                {/* <Image
                   className="has-shadow"
                   src={require('./../../assets/images/features-tabs-image.png')}
                   alt="Features tabs image 01"
                   width={896}
-                  height={504} />
+                  height={504} /> */}
               </TabPanel>
               <TabPanel id="tab-b">
                 <Image
@@ -145,6 +145,14 @@ class FeaturesTabs extends React.Component {
                   height={504} />
               </TabPanel>
               <TabPanel id="tab-d">
+                <Image
+                  className="has-shadow"
+                  src={require('./../../assets/images/features-tabs-image.png')}
+                  alt="Features tabs image 04"
+                  width={896}
+                  height={504} />
+              </TabPanel>
+              <TabPanel id="tab-e">
                 <Image
                   className="has-shadow"
                   src={require('./../../assets/images/features-tabs-image.png')}
