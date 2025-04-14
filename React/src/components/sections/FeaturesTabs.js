@@ -129,36 +129,36 @@ class FeaturesTabs extends React.Component {
                   height={504} /> */}
               </TabPanel>
               <TabPanel id="tab-b">
-                <Image
+                {/* <Image
                   className="has-shadow"
                   src={require('./../../assets/images/features-tabs-image.png')}
                   alt="Features tabs image 02"
                   width={896}
-                  height={504} />
+                  height={504} /> */}
               </TabPanel>
               <TabPanel id="tab-c">
-                <Image
+                {/* <Image
                   className="has-shadow"
                   src={require('./../../assets/images/features-tabs-image.png')}
                   alt="Features tabs image 03"
                   width={896}
-                  height={504} />
+                  height={504} /> */}
               </TabPanel>
               <TabPanel id="tab-d">
-                <Image
+                {/* <Image
                   className="has-shadow"
                   src={require('./../../assets/images/features-tabs-image.png')}
                   alt="Features tabs image 04"
                   width={896}
-                  height={504} />
+                  height={504} /> */}
               </TabPanel>
               <TabPanel id="tab-e">
-                <Image
+                {/* <Image
                   className="has-shadow"
                   src={require('./../../assets/images/features-tabs-image.png')}
                   alt="Features tabs image 04"
                   width={896}
-                  height={504} />
+                  height={504} /> */}
               </TabPanel>              
             </Tabs>
           </div>
