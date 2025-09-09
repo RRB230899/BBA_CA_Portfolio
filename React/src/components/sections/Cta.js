@@ -59,7 +59,10 @@ const Cta = ({
     setError('');
 
     try {
-      const res = await axios.post('https://bba-ca-portfolio.onrender.com', formData);
+      const res = await axios.post('https://bba-ca-portfolio.onrender.com', formData, { headers:{
+        'Content-Type': 'application/json'
+        }
+      });
       setSuccess(res.data.message || 'Message sent successfully!');
       setFormData({ name: '', email: '', message: '' });
     } catch (err) {
@@ -85,6 +88,7 @@ const Cta = ({
             <div className="form-group mb-16">
               <Input
                 id="name"
+                name="name"
                 type="text"
                 label="Name"
                 labelHidden
@@ -97,6 +101,7 @@ const Cta = ({
             <div className="form-group mb-16">
               <Input
                 id="email"
+                name="email"
                 type="email"
                 label="Email"
                 labelHidden
@@ -108,6 +113,7 @@ const Cta = ({
             <div className="form-group mb-16">
               <textarea
                 id="message"
+                name="message"
                 className="contact-input"
                 placeholder="Your Message"
                 rows="5"
