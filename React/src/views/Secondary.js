@@ -3,7 +3,7 @@ import React from 'react';
 // import SectionHeader from '../components/sections/partials/SectionHeader';
 // import sections
 import Testimonial from '../components/sections/Testimonial';
-import Clients from '../components/sections/Clients';
+// import Clients from '../components/sections/Clients';
 import Team from '../components/sections/Team';
 import FeaturesSplit from '../components/sections/FeaturesSplit';
 // import GenericSection from '../components/sections/GenericSection';
@@ -55,7 +55,7 @@ class Secondary extends React.Component {
       <React.Fragment>
         <Testimonial className="has-bg-color-cut illustration-section-02" />
         <Team />
-        <Clients topDivider bottomDivider />
+        {/* <Clients topDivider bottomDivider /> */}
         <FeaturesSplit invertMobile imageFill topDivider />
 
         {/* <GenericSection topDivider>
