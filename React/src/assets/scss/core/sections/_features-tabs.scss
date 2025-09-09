@@ -58,6 +58,52 @@
     }
 }
 
+.service-card {
+  max-width: 600px;
+  margin: 2rem auto;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  padding: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 16px 32px rgba(0,0,0,0.12);
+}
+
+.service-card-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #111827;
+  text-align: center;
+}
+
+.service-card-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.service-card-list li {
+  font-size: 1rem;
+  color: #4B5563;
+  margin-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.service-card-list li::before {
+  content: '✔';
+  position: absolute;
+  left: 0;
+  color: #10B981; /* Tailwind emerald-500 */
+  font-weight: bold;
+}
+
+
 @include media( '>medium' ) {
 
 	.features-tabs {
