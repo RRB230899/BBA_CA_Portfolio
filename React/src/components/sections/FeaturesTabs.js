@@ -121,50 +121,59 @@ class FeaturesTabs extends React.Component {
                 </Tab>               
               </TabList>
               <TabPanel id="tab-a">
-                <div class="max-w-4xl mx-auto bg-white shadow-lg rounded-xl p-6">
-                <h3 class="text-2xl font-bold mb-4">Assurance Services</h3>
-                <p class="text-gray-700 mb-4">
-                  We deliver independent audits, risk assessments, and compliance reviews that enhance financial transparency and stakeholder confidence.
-                </p>
-                <p class="text-gray-700">
-                  By identifying and addressing control gaps, we help businesses reduce operational risk exposure by up to <strong>30%</strong> while ensuring seamless alignment with regulatory standards.
-                </p>
-                </div>
-              </TabPanel>
-              <TabPanel id="tab-b">
-                <div class="max-w-4xl mx-auto bg-white shadow-lg rounded-xl p-6">
-                <h3 class="text-2xl font-bold mb-4">Tax Advisory</h3>
-                <p class="text-gray-700 mb-4">
-                  Our tax experts design strategies that optimize cash flow and reduce tax burdens across multiple jurisdictions.
-                </p>
-                <p class="text-gray-700">
-                  From R&D tax credits to cross-border compliance, we’ve helped clients save an average of <strong>12–18%</strong> in annual tax liabilities, enabling reinvestment into growth and innovation.
-                </p>
+                <div className="service-card">
+                <h3 className="service-card-title">Assurance Services</h3>
+                <ul className="service-card-list">
+                  <li>Independent audits for financial transparency</li>
+                  <li>Risk assessments to reduce operational exposure by <strong>up to 30%</strong></li>
+                  <li>Compliance reviews aligned with regulatory standards</li>
+                  <li>Control gap identification and process improvements</li>
+                </ul>
               </div>
               </TabPanel>
+              <TabPanel id="tab-b">
+                <div className="service-card">
+                <h3 className="service-card-title">Tax Advisory</h3>
+                <ul className="service-card-list">
+                  <li>Cash flow optimization and tax burden reduction</li>
+                  <li>R&D tax credits and cross-border compliance</li>
+                  <li>Average <strong>12–18%</strong> annual tax savings for clients</li>
+                  <li>Enable reinvestment for business growth</li>
+                </ul>
+              </div>  
+              </TabPanel>
               <TabPanel id="tab-c">
-                {/* <Image
-                  className="has-shadow"
-                  src={require('./../../assets/images/features-tabs-image.png')}
-                  alt="Features tabs image 03"
-                  width={896}
-                  height={504} /> */}
+                <div className="service-card">
+                <h3 className="service-card-title">Consultancy</h3>
+                <ul className="service-card-list">
+                  <li>Business process optimization and operational efficiency</li>
+                  <li>Digital transformation guidance</li>
+                  <li>Market expansion and strategic insights</li>
+                  <li>Support for sustainable scaling and cost control</li>
+                </ul>
+              </div>
               </TabPanel>
               <TabPanel id="tab-d">
-                {/* <Image
-                  className="has-shadow"
-                  src={require('./../../assets/images/features-tabs-image.png')}
-                  alt="Features tabs image 04"
-                  width={896}
-                  height={504} /> */}
+                <div className="service-card">
+                <h3 className="service-card-title">Advisory Services</h3>
+                <ul className="service-card-list">
+                  <li>Valuation, transaction, and risk advisory</li>
+                  <li>Guidance through critical business decisions</li>
+                  <li>Successful M&A outcomes valued at over <strong>$500M</strong></li>
+                  <li>Minimized exposure to financial and regulatory risks</li>
+                </ul>
+              </div>
               </TabPanel>
               <TabPanel id="tab-e">
-                {/* <Image
-                  className="has-shadow"
-                  src={require('./../../assets/images/features-tabs-image.png')}
-                  alt="Features tabs image 04"
-                  width={896}
-                  height={504} /> */}
+                <div className="service-card">
+                <h3 className="service-card-title">Sustainability Advisory</h3>
+                <ul className="service-card-list">
+                  <li>Integrate ESG strategies into business operations</li>
+                  <li>Climate impact reporting and green financing support</li>
+                  <li>Clients report <strong>40% improvement</strong> in ESG ratings</li>
+                  <li>Strengthen brand reputation and investor appeal</li>
+                </ul>
+              </div>
               </TabPanel>              
             </Tabs>
           </div>

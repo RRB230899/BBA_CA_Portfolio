@@ -57,20 +57,23 @@ class Roadmap extends React.Component {
           <div className={innerClasses}>
             <SectionHeader data={sectionHeader} className="center-content" />
             <Timeline>
-              <TimelineItem title="2019">
-                Rakesh Agarwal joined
+              <TimelineItem title="2017">
+                Founded by CA Rohit Bajaj and CA Shanu Bose. Initial focus on auditing, tax advisory, and compliance services.
+              </TimelineItem>
+              <TimelineItem title="2018">
+                Onboarded first key clients in auditing, tax advisory, and compliance services, establishing strong foundational processes.
               </TimelineItem>
               <TimelineItem title="2019">
-                Started providing Consultancy Services Overseas
+                Launched consultancy services including business process optimization and regulatory compliance for domestic and overseas clients. Rakesh Agarwal joined.
               </TimelineItem>
-              <TimelineItem title="January 2020">
-                Deployed a high-quality first release and conducted a market validation test
+              <TimelineItem title="2021">
+                Launched sustainability advisory services, supporting ESG compliance and climate impact reporting.
               </TimelineItem>
-              <TimelineItem title="February 2020">
-                Deployed a high-quality first release and conducted a market validation test
+              <TimelineItem title="2021">
+                Launched sustainability and ESG advisory services to assist clients with compliance in emerging regulatory frameworks such as GST, RERA, and other nation-building initiatives.
               </TimelineItem>
-              <TimelineItem title="March 2020">
-                Deployed a high-quality first release and conducted a market validation test
+              <TimelineItem title="2025">
+                Focus on becoming a one-stop destination for clients by providing unmatched professional services, upholding ICAI principles, and contributing to nation-building through skilled application of expertise.
               </TimelineItem>
             </Timeline>
           </div>
