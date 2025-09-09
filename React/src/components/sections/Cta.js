@@ -59,7 +59,7 @@ const Cta = ({
     setError('');
 
     try {
-      const res = await axios.post('https://your-backend.onrender.com/contact', formData);
+      const res = await axios.post('https://bba-ca-portfolio.onrender.com', formData);
       setSuccess(res.data.message || 'Message sent successfully!');
       setFormData({ name: '', email: '', message: '' });
     } catch (err) {
