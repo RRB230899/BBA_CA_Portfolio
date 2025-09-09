@@ -59,7 +59,7 @@ const Cta = ({
     setError('');
 
     try {
-      const res = await axios.post('https://bba-ca-portfolio.onrender.com', formData, { headers:{
+      const res = await axios.post('https://bba-ca-portfolio.onrender.com/contact', formData, { headers:{
         'Content-Type': 'application/json'
         }
       });
@@ -124,7 +124,7 @@ const Cta = ({
             <button type="submit" className="button" disabled={loading || !formData.name || !formData.email || !formData.message}>
               {loading ? 'Sending...' : 'Submit'}
             </button>
-            {success && <p className="success">{success}</p>}
+            {success && <p className="success">Message Sent Successfully!</p>}
             {error && <p className="error">{error}</p>}
           </form>
         </div>
