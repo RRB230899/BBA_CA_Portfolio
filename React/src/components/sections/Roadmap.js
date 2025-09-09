@@ -45,7 +45,7 @@ class Roadmap extends React.Component {
 
     const sectionHeader = {
       title: 'Product roadmap',
-      paragraph: 'Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus in ornare.'
+      paragraph: 'Founded by CA Rohit Bajaj and CA Shanu Bose in 2017'
     };
 
     return (
@@ -57,11 +57,11 @@ class Roadmap extends React.Component {
           <div className={innerClasses}>
             <SectionHeader data={sectionHeader} className="center-content" />
             <Timeline>
-              <TimelineItem title="November 2019">
-                Deployed a high-quality first release and conducted a market validation test
+              <TimelineItem title="2019">
+                Rakesh Agarwal joined
               </TimelineItem>
-              <TimelineItem title="December 2019">
-                Deployed a high-quality first release and conducted a market validation test
+              <TimelineItem title="2019">
+                Started providing Consultancy Services Overseas
               </TimelineItem>
               <TimelineItem title="January 2020">
                 Deployed a high-quality first release and conducted a market validation test

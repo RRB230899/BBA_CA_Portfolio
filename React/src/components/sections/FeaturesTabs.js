@@ -121,20 +121,26 @@ class FeaturesTabs extends React.Component {
                 </Tab>               
               </TabList>
               <TabPanel id="tab-a">
-                {/* <Image
-                  className="has-shadow"
-                  src={require('./../../assets/images/features-tabs-image.png')}
-                  alt="Features tabs image 01"
-                  width={896}
-                  height={504} /> */}
+                <div class="max-w-4xl mx-auto bg-white shadow-lg rounded-xl p-6">
+                <h3 class="text-2xl font-bold mb-4">Assurance Services</h3>
+                <p class="text-gray-700 mb-4">
+                  We deliver independent audits, risk assessments, and compliance reviews that enhance financial transparency and stakeholder confidence.
+                </p>
+                <p class="text-gray-700">
+                  By identifying and addressing control gaps, we help businesses reduce operational risk exposure by up to <strong>30%</strong> while ensuring seamless alignment with regulatory standards.
+                </p>
+                </div>
               </TabPanel>
               <TabPanel id="tab-b">
-                {/* <Image
-                  className="has-shadow"
-                  src={require('./../../assets/images/features-tabs-image.png')}
-                  alt="Features tabs image 02"
-                  width={896}
-                  height={504} /> */}
+                <div class="max-w-4xl mx-auto bg-white shadow-lg rounded-xl p-6">
+                <h3 class="text-2xl font-bold mb-4">Tax Advisory</h3>
+                <p class="text-gray-700 mb-4">
+                  Our tax experts design strategies that optimize cash flow and reduce tax burdens across multiple jurisdictions.
+                </p>
+                <p class="text-gray-700">
+                  From R&D tax credits to cross-border compliance, we’ve helped clients save an average of <strong>12–18%</strong> in annual tax liabilities, enabling reinvestment into growth and innovation.
+                </p>
+              </div>
               </TabPanel>
               <TabPanel id="tab-c">
                 {/* <Image
