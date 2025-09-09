@@ -131,9 +131,9 @@ class News extends React.Component {
                         Since 2021, our firm has been engaged in auditing Public Sector Undertakings, ensuring compliance, transparency, and robust financial governance for government enterprises.
                       </p>
                     </div>
-                    <div className="news-item-more text-xs mb-8">
+                    {/* <div className="news-item-more text-xs mb-8">
                       <a href="https://cruip.com">Read more</a>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
