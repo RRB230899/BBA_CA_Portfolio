@@ -2,7 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
-import Image from '../elements/Image';
+// import Image from '../elements/Image';
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -60,7 +60,7 @@ class Testimonial extends React.Component {
       >
         <div className="container">
           <div className={innerClasses}>
-            <SectionHeader data={sectionHeader} tag="h1" className="center-content invert-color" />
+            <SectionHeader data={sectionHeader} tag="h1" className="center-content invert-color" id="testimonials"/>
             <div className={tilesClasses}>
 
               <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-mobile="true">

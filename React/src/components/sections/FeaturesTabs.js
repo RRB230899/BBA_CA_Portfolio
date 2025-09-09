@@ -56,7 +56,7 @@ class FeaturesTabs extends React.Component {
       >
         <div className="container">
           <div className={innerClasses}>
-            <SectionHeader data={sectionHeader} className="center-content" />
+            <SectionHeader data={sectionHeader} className="center-content" id="services" />
             <Tabs active="tab-a">
               <TabList>
                 <Tab tabId="tab-a">

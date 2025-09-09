@@ -60,8 +60,8 @@ class FeaturesTiles extends React.Component {
       >
         <div className="container">
           <div className={innerClasses}>
-            <SectionHeader data={sectionHeader} className="center-content" />
-            <div className={tilesClasses}>
+            <SectionHeader data={sectionHeader} className="center-content"/>
+            <div className={tilesClasses} id="about">
 
               <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-mobile="true">
                 <div className="tiles-item-inner">

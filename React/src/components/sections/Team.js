@@ -60,7 +60,7 @@ class Team extends React.Component {
       >
         <div className="container">
           <div className={innerClasses}>
-            <SectionHeader data={sectionHeader} className="center-content reveal-from-bottom" />
+            <SectionHeader data={sectionHeader} className="center-content reveal-from-bottom" id="team" />
             <div className={tilesClasses}>
 
               <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-mobile="true">
