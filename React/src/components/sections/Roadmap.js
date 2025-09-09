@@ -45,7 +45,7 @@ class Roadmap extends React.Component {
 
     const sectionHeader = {
       title: 'Roadmap',
-      paragraph: 'Founded by CA Rohit Bajaj and CA Shanu Bose in 2017'
+      // paragraph: 'Founded by CA Rohit Bajaj and CA Shanu Bose in 2017'
     };
 
     return (
@@ -64,13 +64,13 @@ class Roadmap extends React.Component {
                 Onboarded first key clients in auditing, tax advisory, and compliance services, establishing strong foundational processes.
               </TimelineItem>
               <TimelineItem title="2019">
-                Launched consultancy services including business process optimization and regulatory compliance for domestic and overseas clients. Rakesh Agarwal joined.
+                The working horizon of the firm got new dimensions with the joining of CA Rakesh Agrawal.
               </TimelineItem>
+              <TimelineItem title="2019">  
+                Launched consultancy services including business process optimization and regulatory compliance for domestic and overseas clients.
+              </TimelineItem> 
               <TimelineItem title="2021">
-                Launched sustainability advisory services, supporting ESG compliance and climate impact reporting.
-              </TimelineItem>
-              <TimelineItem title="2021">
-                Launched sustainability and ESG advisory services to assist clients with compliance in emerging regulatory frameworks such as GST, RERA, and other nation-building initiatives.
+                Launched sustainability and advisory services to assist clients with compliance in emerging regulatory frameworks such as GST, RERA, and other nation-building initiatives.
               </TimelineItem>
               <TimelineItem title="2025">
                 Focus on becoming a one-stop destination for clients by providing unmatched professional services, upholding ICAI principles, and contributing to nation-building through skilled application of expertise.
