@@ -7,3 +7,6 @@ node_modules/
 *.tar.gz
 *.mp4
 *.mov
+*.venv
+*.env
+*.pyc

@@ -89,6 +89,8 @@ const Cta = ({
                 label="Name"
                 labelHidden
                 placeholder="Your Name"
+                value={formData.name}
+                onChange={handleChange}
               />
             </div>
 
@@ -99,6 +101,8 @@ const Cta = ({
                 label="Email"
                 labelHidden
                 placeholder="Your Email"
+                value={formData.email}
+                onChange={handleChange}
               />
             </div>
             <div className="form-group mb-16">
@@ -107,9 +111,11 @@ const Cta = ({
                 className="contact-input"
                 placeholder="Your Message"
                 rows="5"
+                value={formData.message}
+                onChange={handleChange}
               ></textarea>
             </div>
-            <button type="submit" className="button" disabled={loading}>
+            <button type="submit" className="button" disabled={loading || !formData.name || !formData.email || !formData.message}>
               {loading ? 'Sending...' : 'Submit'}
             </button>
             {success && <p className="success">{success}</p>}
