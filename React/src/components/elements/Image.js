@@ -5,74 +5,49 @@ const propTypes = {
   src: PropTypes.string.isRequired,
   width: PropTypes.number,
   height: PropTypes.number,
-  alt: PropTypes.string
+  alt: PropTypes.string,
+  className: PropTypes.string,
+  placeholder: PropTypes.string // optional placeholder src
 }
 
 const defaultProps = {
   src: undefined,
   width: undefined,
   height: undefined,
-  alt: undefined
+  alt: undefined,
+  className: '',
+  placeholder: ''
 }
 
 class Image extends React.Component {
-
   state = {
     isLoaded: false,
+    currentSrc: this.props.placeholder || this.props.src
   };
 
-  image = React.createRef();
-
-  componentDidMount() {
-    const placeholderImage = document.createElement('img');
-    this.handlePlaceholder(this.image.current, placeholderImage);
-  }
-
-  placeholderSrc = (w, h) => {
-    return `data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${w} ${h}"%3E%3C/svg%3E`;
-  }
-
-  handlePlaceholder = (img, placeholder) => {
-    img.style.display = 'none';
-    img.before(placeholder);
-    placeholder.src = this.placeholderSrc(
-      img.getAttribute('width') || 0,
-      img.getAttribute('height') || 0
-    );
-    placeholder.width = img.getAttribute('width');
-    placeholder.height = img.getAttribute('height');
-    placeholder.style.opacity = '0';
-    img.className && placeholder.classList.add(img.className);
-
-    img.addEventListener('load', () => {
-      placeholder.remove();
-      img.style.display = '';
-      this.setState({
-        isLoaded: true
-      })
-    });
+  handleLoad = () => {
+    const { placeholder, src } = this.props;
+    if (placeholder && !this.state.isLoaded) {
+      // Switch from placeholder to real image
+      this.setState({ currentSrc: src });
+    }
+    this.setState({ isLoaded: true });
   }
 
   render() {
-
-    const {
-      className,
-      src,
-      width,
-      height,
-      alt,
-      ...props
-    } = this.props;
+    const { width, height, alt, className, ...props } = this.props;
+    const { currentSrc } = this.state;
 
     return (
       <img
         {...props}
-        ref={this.image}
-        className={className}
-        src={src}
+        src={currentSrc}
         width={width}
         height={height}
-        alt={alt} />
+        alt={alt}
+        className={className}
+        onLoad={this.handleLoad}
+      />
     );
   }
 }

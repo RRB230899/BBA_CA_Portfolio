@@ -68,8 +68,9 @@ class Team extends React.Component {
                   <div className="team-item-header">
                     <div className="team-item-image mb-24">
                       <Image
-                        src={require('./../../assets/images/Rohit_Bajaj_Team.png')}
+                        src={require('./../../assets/images/Rohit_Bajaj_Team.jpeg')}
                         alt="Team member 01"
+                        className="team-image-cover"
                         width={180}
                         height={180} />
                     </div>
@@ -95,6 +96,7 @@ class Team extends React.Component {
                       <Image
                         src={require('./../../assets/images/Shaanu_Team.png')}
                         alt="Team member 02"
+                        className="team-image-cover"
                         width={180}
                         height={180} />
                     </div>
@@ -120,6 +122,7 @@ class Team extends React.Component {
                       <Image
                         src={require('./../../assets/images/Rakesh_Team.png')}
                         alt="Team member 03"
+                        className="team-image-cover"
                         width={180}
                         height={180} />
                     </div>
