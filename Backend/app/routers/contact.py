@@ -22,6 +22,6 @@ def create_contact(contact: schemas.ContactCreate, db: Session = Depends(get_db)
         raise HTTPException(status_code=500, detail="Database error")
     
 
-@router.get("/ping", methods=["GET", "HEAD"])
+@router.api_route("/ping", methods=["GET", "HEAD"])
 def ping():
     return {"status": "ok"}
