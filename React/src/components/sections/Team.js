@@ -154,7 +154,7 @@ class Team extends React.Component {
                       Sachin Belorkar
                     </h5>
                     <div className="team-item-role text-xs fw-600 mb-8">
-                      B.Com, FCA
+                      B.Com, LLB
                     </div>
                     <p className="m-0 text-sm">
                     Mr. Sachin Belorkar, an esteemed Associate with over 11 years of experience, is a seasoned expert in Labour Law, specializing in compliance with the Establishment Compliance, Factory Act, BOCW Act, EPF Act, ESIC Act, Contract Labour Act, Gratuity Act, and Bonus Act. He has successfully managed over 200 government audits and inspections, bringing practical knowledge and strategic insight to our team. Mr. Belorkar oversees our firm’s labour law compliance operations, ensuring seamless regulatory adherence and safeguarding client interests. His dedication to excellence makes him a pivotal part of our firm's trusted reputation in labour law.
@@ -181,7 +181,7 @@ class Team extends React.Component {
                       CS
                     </div>
                     <p className="m-0 text-sm">
-                    Mr. Pranesh P., an esteemed Associate and an Associate Member of ICSI, holds a B.Com from Kerala University and specializes in Company Law, SEBI Regulations, and the LLP Act. With expertise in Secretarial Audit, he ensures businesses adhere to corporate governance standards. Known for his meticulous approach to regulatory compliance, Mr. Pranesh also provides strategic investment insights in equities. Since joining ICSI in March 2020, his dedication to excellence and client success has made him a trusted advisor and valuable asset to our firm.
+                    Mr. Tejram P., an esteemed Associate and an Associate Member of ICSI, holds a B.Com from Kerala University and specializes in Company Law, SEBI Regulations, and the LLP Act. With expertise in Secretarial Audit, he ensures businesses adhere to corporate governance standards. Known for his meticulous approach to regulatory compliance, Mr. Tejram also provides strategic investment insights in equities. Since joining ICSI in March 2020, his dedication to excellence and client success has made him a trusted advisor and valuable asset to our firm.
                     </p>
                   </div>
                 </div>

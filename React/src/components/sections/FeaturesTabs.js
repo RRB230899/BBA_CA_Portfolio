@@ -125,7 +125,7 @@ class FeaturesTabs extends React.Component {
                 <h3 className="service-card-title">Assurance Services</h3>
                 <ul className="service-card-list">
                   <li>Independent audits for financial transparency</li>
-                  <li>Risk assessments to reduce operational exposure by <strong>up to 30%</strong></li>
+                  <li>Risk assessments to reduce operational exposure</li>
                   <li>Compliance reviews aligned with regulatory standards</li>
                   <li>Control gap identification and process improvements</li>
                 </ul>
@@ -147,7 +147,6 @@ class FeaturesTabs extends React.Component {
                 <h3 className="service-card-title">Consultancy</h3>
                 <ul className="service-card-list">
                   <li>Business process optimization and operational efficiency</li>
-                  <li>Digital transformation guidance</li>
                   <li>Market expansion and strategic insights</li>
                   <li>Support for sustainable scaling and cost control</li>
                 </ul>
@@ -159,7 +158,6 @@ class FeaturesTabs extends React.Component {
                 <ul className="service-card-list">
                   <li>Valuation, transaction, and risk advisory</li>
                   <li>Guidance through critical business decisions</li>
-                  <li>Successful M&A outcomes valued at over <strong>$500M</strong></li>
                   <li>Minimized exposure to financial and regulatory risks</li>
                 </ul>
               </div>
@@ -170,7 +168,6 @@ class FeaturesTabs extends React.Component {
                 <ul className="service-card-list">
                   <li>Integrate ESG strategies into business operations</li>
                   <li>Climate impact reporting and green financing support</li>
-                  <li>Clients report <strong>40% improvement</strong> in ESG ratings</li>
                   <li>Strengthen brand reputation and investor appeal</li>
                 </ul>
               </div>
