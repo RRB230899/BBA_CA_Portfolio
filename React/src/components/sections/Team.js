@@ -181,7 +181,7 @@ class Team extends React.Component {
                       CS
                     </div>
                     <p className="m-0 text-sm">
-                    Mr. Tejram P., an esteemed Associate and an Associate Member of ICSI, holds a B.Com from Kerala University and specializes in Company Law, SEBI Regulations, and the LLP Act. With expertise in Secretarial Audit, he ensures businesses adhere to corporate governance standards. Known for his meticulous approach to regulatory compliance, Mr. Tejram also provides strategic investment insights in equities. Since joining ICSI in March 2020, his dedication to excellence and client success has made him a trusted advisor and valuable asset to our firm.
+                    Mr. Tejram P., an esteemed Associate and an Associate Member of ICSI, holds a B.Com from Nagpur University and specializes in Company Law, SEBI Regulations, and the LLP Act. With expertise in Secretarial Audit, he ensures businesses adhere to corporate governance standards. Known for his meticulous approach to regulatory compliance, Mr. Tejram also provides strategic investment insights in equities. Since joining ICSI, his dedication to excellence and client success has made him a trusted advisor and valuable asset to our firm.
                     </p>
                   </div>
                 </div>

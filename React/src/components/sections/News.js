@@ -49,8 +49,8 @@ class News extends React.Component {
     );
 
     const sectionHeader = {
-      title: 'Product news and updates',
-      paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consequat.'
+      title: 'Creating Opportunities',
+      // paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consequat.'
     };
 
     return (
@@ -75,15 +75,15 @@ class News extends React.Component {
                   <div className="news-item-content">
                     <div className="news-item-body">
                       <h3 className="news-item-title h4 mt-0 mb-8">
-                        <a href="https://cruip.com">How to build anything</a>
+                        <a href="https://cruip.com">Honorary Speaker for Annual Budget Presentation at Income Tax Department</a>
                       </h3>
                       <p className="mb-16 text-sm">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.
+                        Since 2019, Rohit Bajaj has been invited as an honorary speaker to present insights during the Annual Budget sessions conducted by the Income Tax Department, showcasing deep expertise in taxation and corporate finance.
                       </p>
                     </div>
-                    <div className="news-item-more text-xs mb-8">
+                    {/* <div className="news-item-more text-xs mb-8">
                       <a href="https://cruip.com">Read more</a>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -100,15 +100,15 @@ class News extends React.Component {
                   <div className="news-item-content">
                     <div className="news-item-body">
                       <h3 className="news-item-title h4 mt-0 mb-8">
-                        <a href="https://cruip.com">How to build anything</a>
+                        <a href="https://cruip.com">Business Development & Liaison</a>
                       </h3>
                       <p className="mb-16 text-sm">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.
+                        We connect businesses to expand opportunities, creating new collaborations and integrating diverse ecosystems. Our liaison services help clients access new markets and strategic partnerships efficiently.
                       </p>
                     </div>
-                    <div className="news-item-more text-xs mb-8">
+                    {/* <div className="news-item-more text-xs mb-8">
                       <a href="https://cruip.com">Read more</a>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -125,10 +125,10 @@ class News extends React.Component {
                   <div className="news-item-content">
                     <div className="news-item-body">
                       <h3 className="news-item-title h4 mt-0 mb-8">
-                        <a href="https://cruip.com">How to build anything</a>
+                        <a href="https://cruip.com">Conducting Audits of Public Sector Undertakings (PSUs)</a>
                       </h3>
                       <p className="mb-16 text-sm">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.
+                        Since 2021, our firm has been engaged in auditing Public Sector Undertakings, ensuring compliance, transparency, and robust financial governance for government enterprises.
                       </p>
                     </div>
                     <div className="news-item-more text-xs mb-8">

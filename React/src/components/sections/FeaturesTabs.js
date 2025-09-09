@@ -164,11 +164,12 @@ class FeaturesTabs extends React.Component {
               </TabPanel>
               <TabPanel id="tab-e">
                 <div className="service-card">
-                <h3 className="service-card-title">Sustainability Advisory</h3>
+                <h3 className="service-card-title">Virtual CFO Services</h3>
                 <ul className="service-card-list">
-                  <li>Integrate ESG strategies into business operations</li>
-                  <li>Climate impact reporting and green financing support</li>
-                  <li>Strengthen brand reputation and investor appeal</li>
+                  <li>Financial planning, budgeting, and forecasting for businesses</li>
+                  <li>Cash flow management and working capital optimization</li>
+                  <li>Financial reporting and compliance aligned with Indian regulations</li>
+                  <li>Strategic advisory for growth, funding, and investment decisions</li>
                 </ul>
               </div>
               </TabPanel>              
