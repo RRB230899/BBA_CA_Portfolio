@@ -90,13 +90,13 @@ class Testimonial extends React.Component {
               <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="200">
                 <div className="tiles-item-inner has-shadow">
                   <div className="testimonial-item-header mb-16">
-                    <div className="testimonial-item-image">
-                      <Image
+                    {/* <div className="testimonial-item-image"> */}
+                      {/* <Image
                         src={require('./../../assets/images/testimonial-image-02.jpg')}
                         alt="Testimonial 02"
                         width={48}
-                        height={48} />
-                    </div>
+                        height={48} /> */}
+                    {/* </div> */}
                   </div>
                   <div className="testimonial-item-content">
                     <p className="text-sm mb-0">
@@ -114,13 +114,13 @@ class Testimonial extends React.Component {
               <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="400">
                 <div className="tiles-item-inner has-shadow">
                   <div className="testimonial-item-header mb-16">
-                    <div className="testimonial-item-image">
+                    {/* <div className="testimonial-item-image">
                       <Image
                         src={require('./../../assets/images/testimonial-image-03.jpg')}
                         alt="Testimonial 03"
                         width={48}
                         height={48} />
-                    </div>
+                    </div> */}
                   </div>
                   <div className="testimonial-item-content">
                     <p className="text-sm mb-0">

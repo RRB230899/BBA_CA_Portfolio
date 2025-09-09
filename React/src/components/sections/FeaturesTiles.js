@@ -142,7 +142,7 @@ class FeaturesTiles extends React.Component {
                   </div>
                   <div className="features-tiles-item-content">
                     <h4 className="mt-0 mb-8">
-                      Our Responsibility towards the Nation:
+                      Our Responsibility towards The Nation:
                     </h4>
                     <p className="m-0 text-sm">
                       In the present day, India is witnessing revolutionary reforms in the face of introduction of GST, RERA and various other schemes. Foreign investors are keen to set up their business in India.

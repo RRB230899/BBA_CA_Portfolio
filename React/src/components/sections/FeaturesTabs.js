@@ -45,7 +45,7 @@ class FeaturesTabs extends React.Component {
     );
 
     const sectionHeader = {
-      title: 'Built exclusively for you',
+      title: 'Built Exclusively for You',
       paragraph: "It's a one stop destination. You name it, we've got it. From Financial Audits, Risk Assessments, and Performance Reporting, to Compliance, planning, and global tax solutions, Digital transformation, business process optimization, and technology strategy, Mergers, acquisitions, and risk management consulting, ESG strategy, sustainable finance, and climate impact solutions."
     };
 
@@ -116,7 +116,7 @@ class FeaturesTabs extends React.Component {
                       height={56} />
                   </div>
                   <div className="text-color-high fw-600 text-sm">
-                    Sustainability Advisory
+                    Virtual CFO Services
                   </div>
                 </Tab>               
               </TabList>
