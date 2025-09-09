@@ -8,17 +8,17 @@ import axios from 'axios';
 const propTypes = {
   ...SectionProps.types,
   split: PropTypes.bool
-}
+};
 
 const defaultProps = {
   ...SectionProps.defaults,
   split: false
-}
+};
 
 const Cta = ({
   className,
   topOuterDivider,
-  bottomOuterDivider,      
+  bottomOuterDivider,
   topDivider,
   bottomDivider,
   hasBgColor,
@@ -26,7 +26,6 @@ const Cta = ({
   split,
   ...props
 }) => {
-
   const outerClasses = classNames(
     'cta section center-content-mobile',
     topOuterDivider && 'has-top-divider',
@@ -48,9 +47,12 @@ const Cta = ({
   const [success, setSuccess] = useState('');
   const [error, setError] = useState('');
 
+  // Email regex (basic but reliable)
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
-  }
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -58,33 +60,50 @@ const Cta = ({
     setSuccess('');
     setError('');
 
+    // Client-side validation
+    if (!formData.name.trim()) {
+      setError('Name is required');
+      setLoading(false);
+      return;
+    }
+
+    if (!emailRegex.test(formData.email)) {
+      setError('Please enter a valid email address');
+      setLoading(false);
+      return;
+    }
+
+    if (!formData.message.trim()) {
+      setError('Message cannot be empty');
+      setLoading(false);
+      return;
+    }
+
     try {
-      const res = await axios.post('https://bba-ca-portfolio.onrender.com/contact', formData, { headers:{
-        'Content-Type': 'application/json'
-        }
-      });
-      setSuccess(res.data.message || 'Message sent successfully!');
+      const res = await axios.post(
+        'https://bba-ca-portfolio.onrender.com/contact',
+        formData,
+        { headers: { 'Content-Type': 'application/json' } }
+      );
+      setSuccess(`Thank you, ${res.data.name}. We will contact you shortly.`);
       setFormData({ name: '', email: '', message: '' });
+      setTimeout(() => setSuccess(''), 5000);
     } catch (err) {
       setError(err.response?.data?.detail || 'Something went wrong!');
+      setTimeout(() => setError(''), 5000);
     } finally {
       setLoading(false);
     }
-  }
+  };
 
   return (
-    <section
-      {...props}
-      className={outerClasses}
-    >
+    <section {...props} className={outerClasses}>
       <div className="container">
         <div className={innerClasses}>
           <div className="cta-slogan">
-            <h3 className="m-0">
-              Get in touch!
-            </h3>
+            <h3 className="m-0">Get in touch!</h3>
           </div>
-          <form className="cta-action" onSubmit={handleSubmit}>
+          <form className="cta-action" onSubmit={handleSubmit} noValidate>
             <div className="form-group mb-16">
               <Input
                 id="name"
@@ -110,6 +129,7 @@ const Cta = ({
                 onChange={handleChange}
               />
             </div>
+
             <div className="form-group mb-16">
               <textarea
                 id="message"
@@ -119,19 +139,25 @@ const Cta = ({
                 rows="5"
                 value={formData.message}
                 onChange={handleChange}
-              ></textarea>
+              />
             </div>
-            <button type="submit" className="button" disabled={loading || !formData.name || !formData.email || !formData.message}>
+
+            <button
+              type="submit"
+              className="button"
+              disabled={loading}
+            >
               {loading ? 'Sending...' : 'Submit'}
             </button>
-            {success && <p className="success">Message Sent Successfully!</p>}
+
+            {success && <p className="success">{success}</p>}
             {error && <p className="error">{error}</p>}
           </form>
         </div>
       </div>
     </section>
   );
-}
+};
 
 Cta.propTypes = propTypes;
 Cta.defaultProps = defaultProps;

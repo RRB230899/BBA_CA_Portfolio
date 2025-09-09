@@ -20,3 +20,8 @@ def create_contact(contact: schemas.ContactCreate, db: Session = Depends(get_db)
     except Exception as e:
         # for production, log the real error and return a generic message
         raise HTTPException(status_code=500, detail="Database error")
+    
+
+@router.get("/ping")
+def ping():
+    return {"status": "ok"}
