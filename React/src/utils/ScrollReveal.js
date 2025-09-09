@@ -24,6 +24,16 @@ class ScrollReveal extends React.Component {
       let revealDelay = el.getAttribute('data-reveal-delay');
       let revealOffset = (el.getAttribute('data-reveal-offset') ? el.getAttribute('data-reveal-offset') : '200');
       let listenedEl = (el.getAttribute('data-reveal-container') ? el.closest(el.getAttribute('data-reveal-container')) : el);
+
+      const allowOnMobile = el.hasAttribute('data-reveal-mobile');
+      const isMobile = window.innerWidth <= 640;
+
+      if (isMobile && !allowOnMobile) {
+        // If on mobile but the element has NOT opted in, mark as revealed instantly
+        el.classList.add('is-revealed');
+        continue;
+      }
+
       if (this.elementIsVisible(listenedEl, revealOffset) && !el.classList.contains('is-revealed')) {
         if (revealDelay && revealDelay !== 0) {
           setTimeout(function () {

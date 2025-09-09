@@ -70,10 +70,10 @@ class FeaturesSplit extends React.Component {
 
               <div className="split-item">
                 <div className="split-item-content center-content-mobile">
-                  <h3 className="mt-0 mb-16 reveal-from-bottom" data-reveal-container=".split-item">
+                  <h3 className="mt-0 mb-16 reveal-from-bottom" data-reveal-container=".split-item" data-reveal-mobile="true">
                     Audit & Compliance
                   </h3>
-                  <p className="m-0 reveal-from-bottom" data-reveal-delay="100" data-reveal-container=".split-item">
+                  <p className="m-0 reveal-from-bottom" data-reveal-delay="100" data-reveal-container=".split-item" data-reveal-mobile="true">
                     Conduct statutory audits, internal audits, and compliance reviews for Indian businesses, ensuring adherence to laws like GST, Companies Act, and income tax regulations.
                   </p>
                 </div>
@@ -83,7 +83,8 @@ class FeaturesSplit extends React.Component {
                     imageFill && 'split-item-image-fill'
                   )}
                   data-reveal-container=".split-item"
-                  data-reveal-delay="200">
+                  data-reveal-delay="200"
+                  data-reveal-mobile="true">
                   <Image
                     className="has-shadow"
                     src={require('./../../assets/images/Audit&Compliance.jpg')}
@@ -95,10 +96,10 @@ class FeaturesSplit extends React.Component {
 
               <div className="split-item">
                 <div className="split-item-content center-content-mobile">
-                  <h3 className="mt-0 mb-16 reveal-from-bottom" data-reveal-container=".split-item">
+                  <h3 className="mt-0 mb-16 reveal-from-bottom" data-reveal-container=".split-item" data-reveal-mobile="true">
                     Tax Advisory
                   </h3>
-                  <p className="m-0 reveal-from-bottom" data-reveal-delay="100" data-reveal-container=".split-item">
+                  <p className="m-0 reveal-from-bottom" data-reveal-delay="100" data-reveal-container=".split-item" data-reveal-mobile="true">
                     Provide expert advice on GST, corporate tax planning, and income tax optimization, helping Indian companies legally minimize tax liabilities and maintain cash flow efficiency.
                   </p>
                 </div>
@@ -108,7 +109,8 @@ class FeaturesSplit extends React.Component {
                     imageFill && 'split-item-image-fill'
                   )}
                   data-reveal-container=".split-item"
-                  data-reveal-delay="200">
+                  data-reveal-delay="200"
+                  data-reveal-mobile="true">
                   <Image
                     className="has-shadow"
                     src={require('./../../assets/images/Tax Advisory.jpg')}
@@ -120,10 +122,10 @@ class FeaturesSplit extends React.Component {
 
               <div className="split-item">
                 <div className="split-item-content center-content-mobile">
-                  <h3 className="mt-0 mb-16 reveal-from-bottom" data-reveal-container=".split-item">
+                  <h3 className="mt-0 mb-16 reveal-from-bottom" data-reveal-container=".split-item" data-reveal-mobile="true">
                     Virtual CFO Services
                   </h3>
-                  <p className="m-0 reveal-from-bottom" data-reveal-delay="100" data-reveal-container=".split-item">
+                  <p className="m-0 reveal-from-bottom" data-reveal-delay="100" data-reveal-container=".split-item" data-reveal-mobile="true">
                     Act as your outsourced CFO, managing accounting, cash flow, financial planning, and reporting, enabling Indian SMEs and corporates to make informed business decisions.
                   </p>
                 </div>
@@ -133,7 +135,8 @@ class FeaturesSplit extends React.Component {
                     imageFill && 'split-item-image-fill'
                   )}
                   data-reveal-container=".split-item"
-                  data-reveal-delay="200">
+                  data-reveal-delay="200"
+                  data-reveal-mobile="true">
                   <Image
                     className="has-shadow"
                     src={require('./../../assets/images/Virtual CFO Services.jpg')}

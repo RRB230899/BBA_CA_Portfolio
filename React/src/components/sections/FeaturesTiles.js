@@ -63,7 +63,7 @@ class FeaturesTiles extends React.Component {
             <SectionHeader data={sectionHeader} className="center-content" />
             <div className={tilesClasses}>
 
-              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap">
+              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-mobile="true">
                 <div className="tiles-item-inner">
                   <div className="features-tiles-item-header">
                     <div className="features-tiles-item-image mb-16">
@@ -85,7 +85,7 @@ class FeaturesTiles extends React.Component {
                 </div>
               </div>
 
-              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="100">
+              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="100" data-reveal-mobile="true">
                 <div className="tiles-item-inner">
                   <div className="features-tiles-item-header">
                     <div className="features-tiles-item-image mb-16">
@@ -107,7 +107,7 @@ class FeaturesTiles extends React.Component {
                 </div>
               </div>
 
-              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="200">
+              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="200" data-reveal-mobile="true">
                 <div className="tiles-item-inner">
                   <div className="features-tiles-item-header">
                     <div className="features-tiles-item-image mb-16">
@@ -129,7 +129,7 @@ class FeaturesTiles extends React.Component {
                 </div>
               </div>
 
-              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="300">
+              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="300" data-reveal-mobile="true">
                 <div className="tiles-item-inner">
                   <div className="features-tiles-item-header">
                     <div className="features-tiles-item-image mb-16">

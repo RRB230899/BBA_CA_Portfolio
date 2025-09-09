@@ -88,7 +88,7 @@ class News extends React.Component {
                 </div>
               </div>
 
-              <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
+              <div className="tiles-item reveal-from-bottom" data-reveal-delay="200" data-reveal-mobile="true">
                 <div className="tiles-item-inner has-shadow">
                   <figure className="news-item-image m-0">
                     <Image
@@ -113,7 +113,7 @@ class News extends React.Component {
                 </div>
               </div>
 
-              <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
+              <div className="tiles-item reveal-from-bottom" data-reveal-delay="400" data-reveal-mobile="true">
                 <div className="tiles-item-inner has-shadow">
                   <figure className="news-item-image m-0">
                     <Image

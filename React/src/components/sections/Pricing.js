@@ -212,7 +212,7 @@ class Pricing extends React.Component {
                 </div>
               </div>
 
-              <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
+              <div className="tiles-item reveal-from-bottom" data-reveal-delay="200" data-reveal-mobile="true">
                 <div className="tiles-item-inner has-shadow">
                   <div className="pricing-item-content">
                     <div className="pricing-item-header pb-24 mb-24">
@@ -245,7 +245,7 @@ class Pricing extends React.Component {
                 </div>
               </div>
 
-              <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
+              <div className="tiles-item reveal-from-bottom" data-reveal-delay="400" data-reveal-mobile="true">
                 <div className="tiles-item-inner has-shadow">
                   <div className="pricing-item-content">
                     <div className="pricing-item-header pb-24 mb-24">

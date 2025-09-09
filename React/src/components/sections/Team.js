@@ -63,7 +63,7 @@ class Team extends React.Component {
             <SectionHeader data={sectionHeader} className="center-content reveal-from-bottom" />
             <div className={tilesClasses}>
 
-              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap">
+              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-mobile="true">
                 <div className="tiles-item-inner">
                   <div className="team-item-header">
                     <div className="team-item-image mb-24">
@@ -89,7 +89,7 @@ class Team extends React.Component {
                 </div>
               </div>
 
-              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="150">
+              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="150" data-reveal-mobile="true">
                 <div className="tiles-item-inner">
                   <div className="team-item-header">
                     <div className="team-item-image mb-24">
@@ -115,7 +115,7 @@ class Team extends React.Component {
                 </div>
               </div>
 
-              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="300">
+              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="300" data-reveal-mobile="true">
                 <div className="tiles-item-inner">
                   <div className="team-item-header">
                     <div className="team-item-image mb-24">
@@ -141,7 +141,7 @@ class Team extends React.Component {
                 </div>
               </div>
 
-              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap">
+              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-mobile="true">
                 <div className="tiles-item-inner">
                   <div className="team-item-header">
                     {/* <div className="team-item-image mb-24">
@@ -165,7 +165,7 @@ class Team extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap">
+              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-mobile="true">
                 <div className="tiles-item-inner">
                   <div className="team-item-header">
                     {/* <div className="team-item-image mb-24">

@@ -63,7 +63,7 @@ class Testimonial extends React.Component {
             <SectionHeader data={sectionHeader} tag="h1" className="center-content invert-color" />
             <div className={tilesClasses}>
 
-              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap">
+              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-mobile="true">
                 <div className="tiles-item-inner has-shadow">
                   <div className="testimonial-item-header mb-16">
                     {/* <div className="testimonial-item-image">
@@ -87,7 +87,7 @@ class Testimonial extends React.Component {
                 </div>
               </div>
 
-              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="200">
+              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="200" data-reveal-mobile="true">
                 <div className="tiles-item-inner has-shadow">
                   <div className="testimonial-item-header mb-16">
                     {/* <div className="testimonial-item-image"> */}
@@ -111,7 +111,7 @@ class Testimonial extends React.Component {
                 </div>
               </div>
 
-              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="400">
+              <div className="tiles-item reveal-from-bottom" data-reveal-container=".tiles-wrap" data-reveal-delay="400" data-reveal-mobile="true">
                 <div className="tiles-item-inner has-shadow">
                   <div className="testimonial-item-header mb-16">
                     {/* <div className="testimonial-item-image">

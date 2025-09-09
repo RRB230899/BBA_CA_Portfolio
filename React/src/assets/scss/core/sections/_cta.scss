@@ -20,12 +20,6 @@
 		}
 	}
 
-	.cta-split {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	}
-
 	.cta-slogan {
 		margin-bottom: $cta-slogan--padding-v__desktop;
 
@@ -34,4 +28,27 @@
 			margin-right: $cta-slogan--padding-h__desktop;
 		}
 	}
+}
+
+.contact-input {
+  width: 70%;
+  padding: 10px 0 0 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 75%;
+  box-sizing: border-box; /* ensures padding doesn't break width */
+}
+
+/* Tablets / medium screens (between 640px and 1024px) */
+@media (max-width: 1024px) and (min-width: 641px) {
+  .contact-input {
+    width: 80%;
+  }
+}
+
+/* Mobile / small screens (up to 640px) */
+@media (max-width: 640px) {
+  .contact-input {
+    width: 100%;
+  }
 }
