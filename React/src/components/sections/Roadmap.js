@@ -44,7 +44,7 @@ class Roadmap extends React.Component {
     );
 
     const sectionHeader = {
-      title: 'Product roadmap',
+      title: 'Roadmap',
       paragraph: 'Founded by CA Rohit Bajaj and CA Shanu Bose in 2017'
     };
 

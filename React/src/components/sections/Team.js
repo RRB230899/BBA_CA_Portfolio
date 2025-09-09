@@ -49,7 +49,7 @@ class Team extends React.Component {
     );
 
     const sectionHeader = {
-      title: 'Get to know us',
+      title: 'Get to Know Us',
       paragraph: ''
     };
 
