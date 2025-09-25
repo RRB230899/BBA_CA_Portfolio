@@ -120,7 +120,7 @@ class Team extends React.Component {
                   <div className="team-item-header">
                     <div className="team-item-image mb-24">
                       <Image
-                        src={require('./../../assets/images/Rakesh_Team.png')}
+                        src={require('./../../assets/images/Rakesh_Team_New.jpeg')}
                         alt="Team member 03"
                         className="team-image-cover"
                         width={180}
